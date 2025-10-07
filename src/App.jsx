@@ -91,7 +91,7 @@ function App() {
 
     try {
       // const response = await fetch("https://placement-predictor-backend.onrender.com/predict", {
-      const response = await fetch("http://localhost:5000/predict", {
+      const response = await fetch("https://placement-predictor-backend.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify( features )
